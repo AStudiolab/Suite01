@@ -1,0 +1,144 @@
+HTML
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suite 01 | Coiffeur Treviglio</title>
+    <!-- Importazione Font: Great Vibes per il corsivo elegante del logo + Cormorant & Lato -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;600&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <!-- Logo immagine inserito in alto -->
+        <div class="logo">
+            <a href="#home">
+                <img src="logo.png" alt="Suite 01 Logo" class="logo-img">
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#salone">Il Salone</a></li>
+                <li><a href="#servizi">I Nostri Servizi</a></li>
+                <li><a href="#direttore">Direttore Artistico</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero" style="background-image: url('home.webp');">
+        <div class="hero-content">
+            <h1 class="logo-font">Suite 01</h1>
+            <h2 class="logo-font-sub">Coiffeur</h2>
+            <p class="hero-location">Treviglio</p>
+        </div>
+    </section>
+
+    <section id="salone" class="about-section">
+        <div class="container">
+            <h2>Il Salone</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>UNA PARTNERSHIP CHE NASCE DA PASSIONE, STILE E INNOVAZIONE</h3>
+                    <p>Suite 01 è molto più di un salone di bellezza: è uno spazio creativo, raffinato e accogliente, nato dall'incontro tra due professionisti che hanno fatto della loro passione un progetto condiviso.</p>
+                    <p>Luca Di Prima ed Elisabetta Bonomelli uniscono competenze, visione e sensibilità estetica per offrire esperienze su misura, dove cura della persona, moda e creatività si fondono in armonia.</p>
+                    <p>Situato a Treviglio in Via Torquato Tasso 29, Suite 01 si distingue per il suo stile minimale e caldo, pensato per mettere al centro la persona. Ogni ambiente è studiato per trasmettere calma, ispirazione e benessere.</p>
+                </div>
+                <div class="about-image">
+                    <img src="home.webp" alt="Interno Suite 01">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servizi" class="services-section">
+        <div class="container">
+            <h2>I Nostri Servizi</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="donna.jpg" alt="Hair Styling Donna">
+                    <div class="service-content">
+                        <h3>Hair Styling Donna</h3>
+                        <p>Tagli, pieghe e colorazioni esclusive pensate per valorizzare ogni volto e personalità.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="barba.jpg" alt="Barberia & Cura Barba">
+                    <div class="service-content">
+                        <h3>Barberia & Cura Barba</h3>
+                        <p>Uno spazio dedicato all'uomo, dove tradizione e stile contemporaneo si incontrano per tagli e rasature impeccabili.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="prodotti.jpg" alt="Trattamenti Esclusivi Kérastase">
+                    <div class="service-content">
+                        <h3>Trattamenti Esclusivi Kérastase</h3>
+                        <p>Rituali di bellezza avanzati e prodotti professionali leader nel mondo per la cura e la salute del capello.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="direttore" class="director-section">
+        <div class="container">
+            <h2>Il Nostro Direttore Artistico</h2>
+            <div class="director-grid">
+                <div class="director-img">
+                    <img src="luca.jpg" alt="Luca Di Prima">
+                </div>
+                <div class="director-text">
+                    <h3>Luca Di Prima</h3>
+                    <p class="role">Direttore Artistico & Hairstylist</p>
+                    <p>Con un'esperienza pluridecennale nel mondo della moda e della bellezza, Luca ha calcato i backstage delle più importanti sfilate, curato look per shooting pubblicitari e lavorato con personaggi del mondo dello spettacolo. La sua sensibilità artistica si traduce in tagli e acconciature su misura, capaci di valorizzare ogni volto e personalità.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <h2>Galleria Atmosfera</h2>
+            <div class="gallery-grid">
+                <img src="sedia.webp" alt="Postazione salone">
+                <img src="lavaggio.webp" alt="Zona lavaggio">
+                <img src="divano.webp" alt="Divano Suite 01">
+                <img src="taglio.jpg" alt="Servizio professionale">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contatti">
+        <div class="container footer-grid">
+            <div>
+                <h3>Contatti</h3>
+                <p>Via Torquato Tasso, 29 - Treviglio (BG)</p>
+                <p>Tel: 0363 45766</p>
+                <p>WhatsApp: +39 351 3700970</p>
+                <p>Email: suite01@gmail.com</p>
+            </div>
+            <div class="footer-social">
+                <h3>Suite 01 Coiffeur</h3>
+                <p>Seguici sui nostri canali social per scoprire tutte le ultime novità e tendenze.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Suite 01 Coiffeur. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+<!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p>Questo sito utilizza cookie tecnici e di terze parti per garantirti la migliore esperienza. Continuando la navigazione acconsenti all'uso dei cookie. <a href="#contatti">Maggiori informazioni</a></p>
+            <div class="cookie-buttons">
+                <button id="accept-cookies" class="cookie-btn accept">Accetta</button>
+                <button id="reject-cookies" class="cookie-btn reject">Solo necessari</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
